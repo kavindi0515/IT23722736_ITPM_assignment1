@@ -19,10 +19,10 @@ Contains **50 negative test cases** where the system fails to convert Singlish t
 ### 1. Install Packages
 ```bash
 pip install playwright openpyxl
-
+```
 ## Running the Tests
 
 From the Command Prompt (inside `C:\IT23722736`), run the following command:
 
 ```bash
-PS D:\IT23713444> python .\IT23713444\IT23713444.py --excel ".\IT23713444\IT23713444.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open  
+PS C:\IT23722736> python .\IT23722736\IT23722736.py --excel ".\IT23722736\IT23722736.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open  
